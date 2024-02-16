@@ -1,0 +1,7 @@
+TODO LIST
+
+Required functionality:
+- get all todos
+- create new todo 
+- update todo (e.g. checking, editing)
+- delete todo
