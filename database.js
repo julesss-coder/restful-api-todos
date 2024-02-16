@@ -1,4 +1,4 @@
-const sqlite = require('sqlite3');
+const sqlite = require('sqlite3').verbose();
 
 let database = new sqlite.Database('todos.db', error => {
     if (error) {
