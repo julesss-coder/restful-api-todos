@@ -57,7 +57,7 @@ app.get("/todos/:id", (request, response) => {
   
 });
 
-app.post("/new-todo", (request, response, next) => {
+app.post("/new-todo", (request, response) => {
   const { name, description, created, updated } = request.body;
 
   // Collect errors
